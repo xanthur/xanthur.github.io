@@ -1,0 +1,31 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif);
+
+}
+h1{
+    color: white;
+}
+#welcome1{
+    color: wheat;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    text-align: center;
+    border: 5px ridge;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black
+}
+#welcome2{
+    color: black;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+    background-color: white;
+    width: 500px;
+    border: 20px ridge;
+    font-size: 18px;
+}
