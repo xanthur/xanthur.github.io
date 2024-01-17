@@ -18,6 +18,9 @@ h1{
     font-size: 20px;
     background-color: black
 }
+#welcome1:hover{
+    color: gold;
+}
 #welcome2{
     color: black;
     margin-top: 1%;
@@ -28,4 +31,17 @@ h1{
     width: 500px;
     border: 20px ridge;
     font-size: 18px;
+}
+
+#imagetest{
+
+    object-fit: contain;
+
+    position: absolute;
+    right: 300px;
+    bottom: 500px;
+}
+
+img{
+    display: block;
 }
