@@ -5,20 +5,47 @@
 
 
         <link rel="stylesheet" href="stylesheets/style1.css"> 
-
+        
         <meta charset="UTF-8">
         <meta name="description" content="The hub of all things fatballs">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="juxive">
     </head>
     <body>
+       
         <!--what the flip!!!-->
         <div id="welcome1">
         welcome to fatballs.world <br>
         please enjoy your stay
         </div>
-        <div id="pot_roast">
+        <div id="earth">
             <img src="images\fatballs_earth_ultralight.gif" alt="fatballs.world" height="300px">
+        </div>
+
+        <div id="wrap">
+
+            <div id="satellite">
+                    <img src="images\satellite_render_hollow_test.png" alt="satellite" height="800px">
+
+                    <div id="boxes">
+                        <a href="pages\crazytown.html"><div id="box1" class="box"><video src="video\about_default.mp4" onmouseover="this.src='video/about_hover.mp4'" onmouseleave="this.src='video/about_default.mp4'" alt="about" height="80px" width="80px" autoplay loop></div></a>
+                       <a href="pages\about.html"><div id="box2" class="box"><video src="video\about_default.mp4" onmouseover="this.src='video/about_hover.mp4'" onmouseleave="this.src='video/about_default.mp4'" alt="about" height="80px" width="80px" autoplay loop></video></div></a>
+                       <a href="pages\games.html"><div id="box3" class="box"><video src="video\about_default.mp4" onmouseover="this.src='video/about_hover.mp4'" onmouseleave="this.src='video/about_default.mp4'" alt="about" height="80px" width="80px" autoplay loop></video></div></a>
+                       <a href="pages\art.html"><div id="box4" class="box"><video src="video\about_default.mp4" onmouseover="this.src='video/about_hover.mp4'" onmouseleave="this.src='video/about_default.mp4'" alt="about" height="80px" width="80px" autoplay loop></video></div></a>
+                       <a href="pages\music.html"><div id="box5" class="box"><video src="video\about_default.mp4" onmouseover="this.src='video/about_hover.mp4'" onmouseleave="this.src='video/about_default.mp4'" alt="about" height="80px" width="80px" autoplay loop></video></div></a>
+                       <a href="pages\gif_collection.html"><div id="box6" class="box"><video src="video\about_default.mp4" onmouseover="this.src='video/about_hover.mp4'" onmouseleave="this.src='video/about_default.mp4'" alt="about" height="80px" width="80px" autoplay loop></video></div></a>
+                       <a href="pages\video.html"><div id="box7" class="box"><video src="video\about_default.mp4" onmouseover="this.src='video/about_hover.mp4'" onmouseleave="this.src='video/about_default.mp4'" alt="about" height="80px" width="80px" autoplay loop></video></div></a>
+                        <div id="box8" class="box"></div>
+                        <div id="box9" class="box"></div>
+                    </div>
+
+                    <button type="button" id="click_me" onclick="moveSatellite()">move</button>
             </div>
 
+         
+
+        </div>
+
+        <script src="js\app.js"></script>
     </body>
 </html>

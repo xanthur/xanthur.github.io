@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif);
+   background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif);
 }
 h1{
     color: white;
@@ -20,23 +20,78 @@ h1{
     background-color: black;
     -webkit-user-select: none;
     user-select: none;
+    z-index: 1;
+    border-radius: 5px;
 }
 #welcome1:hover{
     color: gold;
 }
-#pot_roast{
+
+#earth{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: -2;
+   
 }
 
-#que{
-    display: inline;
-    position: relative;
-    width: fit-content;
-    bottom: 300px;
-    left: 600px;
+#wrap{
+    float:left;
+    position:fixed;
+    min-width:800x;
+    top: 10%;
+    z-index: -1;
+    -webkit-user-select: none;
+    user-select: none;
+
+#boxes{
+    position: fixed;
+    transform: translate(90%, -225%);
+    display: grid;
+    grid-template-areas: 
+        "box1" "box2" "box3"
+        "box4" "box5" "box6"
+        "box7" "box8" "box9";
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: -1;
     
+}
+.box{
+    pointer-events: auto;
+    /*background-color: white;*/
+    width: 80px;
+    height: 80px;
+    
+   
+}
+
+#click_me{
+    position: fixed;
+    transform: translate(465px, -488px);
+    width: 90px;
+    height: 110px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    pointer-events: auto;
+    cursor:pointer;
+}
+
+}
+#satellite{
+    
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    
+    transform: translate(-60%, 0);
+    pointer-events: none;
+    /*left: -100px;*/
+    /*-15% for open, -60% for close*/
+    /*animation-fill-mode: forwards;*/
+    transition: all 1s;
 }
