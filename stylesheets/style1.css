@@ -42,15 +42,7 @@ h1{
    
 }
 
-#wrap{
 
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    -webkit-user-select: none;
-    user-select: none;
-
-
-}
 #satellites{
     
     
