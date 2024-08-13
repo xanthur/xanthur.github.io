@@ -1,5 +1,12 @@
 
 
+@font-face{
+    font-family: "DOS/V re. ANK30";
+    src: url(/fonts/ANK30.woff)
+}
+
+
+
 body{
    background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif);
 }
@@ -60,9 +67,9 @@ body{
     width: 180px;
     height: 180px;
     background-color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "DOS/V re. ANK30", serif;
+    font-size: 21px;
 }
-
 
 
 #display:hover {
@@ -88,8 +95,8 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    padding-left: 19px;
-    padding-top: 54px;
+    padding-left: 12px;
+    padding-top: 42px;
 }
 
 a:link { 
