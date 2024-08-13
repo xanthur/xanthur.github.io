@@ -4,22 +4,12 @@
         <title>fatballs.world</title>
 
         <link rel="icon" type="image/gif" href="images/fatballs_favicon.gif">
-        <link rel="stylesheet" href="stylesheets/style1.css"> 
+        <link rel="stylesheet" href="stylesheets/landingpage.css"> 
         
         <meta charset="UTF-8">
         <meta name="description" content="The hub of all things fatballs">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="xanthur">
-
-        <link rel="preload" href="video/about_hover.mp4" as="video"/>
-        <link rel="preload" href="video/video_hover.mp4" as="video"/>
-        <link rel="preload" href="video/art_hover.mp4" as="video"/>
-        <link rel="preload" href="video/music_hover.mp4" as="video"/>
-        <link rel="preload" href="video/games_hover.mp4" as="video"/>
-        <link rel="preload" href="video/crazy_hover.mp4" as="video"/>
-        <link rel="preload" href="video/guestbook_hover.mp4" as="video"/>
-        <link rel="preload" href="video/gif_hover.mp4" as="video"/>
-
 
 
     </head>
@@ -29,135 +19,24 @@
         welcome to fatballs.world <br>
         please enjoy your stay
         </div>
-        <div id="earth">
-            <img src="images\fatballs_earth_ultralight.gif" alt="fatballs.world" height="300px" fetchpriority="high">
-        </div>
-
-
-
-        <div id="satellites">
-
-            <img src="images\satellite_multi.png" alt="satellites" height="900px">
-
-            <!--NOW ENTERING HTML HELL BECAUSE I AM STUPID AND DON'T KNOW HOW TO CODE BETTER-->
-
-            <div id="tvs">
-
-                <a href="pages\about.html">
-                    <div id="tv1" class="tv">
-                        <video
-                        src="video/about_default.webm"
-                        onmouseover="this.src='video/about_hover.mp4'"
-                        onmouseleave="this.src='video/about_default.webm'"
-                        alt="about"
-                        width="70px" height="70px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing1" class="backing"></div>
+            <div id="wrapper">
+                
+                <div id="satellite">
+                    <img id="tv" src="images\satellite_render_medium.png" width="512px">
+                    <a href="pages\home.html">
+                    <div id="display">
+                        <h1 id="enter_text">ENTER SITE</h1>
                     </div>
                     </a>
+                </div>
+                <img id="earth" src="images\fatballs_earth_ultralight.gif" alt="fatballs.world" height="300px" fetchpriority="high">
 
-                    <a href="pages\video.html">
-                    <div id="tv2" class="tv">
-                        <video
-                        src="video/video_default.webm"
-                        onmouseover="this.src='video/video_hover.mp4'"
-                        onmouseleave="this.src='video/video_default.webm'"
-                        alt="about"
-                        width="65px" height="65px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing2" class="backing"></div>
-                    </div>
-                    </a>
-
-                    <a href="pages\music.html">
-                    <div id="tv3" class="tv">
-                        <video
-                        src="video/music_default.webm"
-                        onmouseover="this.src='video/music_hover.mp4'"
-                        onmouseleave="this.src='video/music_default.webm'"
-                        alt="about"
-                        width="60px" height="60px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing1" class="backing"></div>
-                    </div>
-                    </a>
-
-                    <a href="pages\games.html">
-                    <div id="tv4" class="tv">
-                        <video
-                        src="video/games_default.webm"
-                        onmouseover="this.src='video/games_hover.mp4'"
-                        onmouseleave="this.src='video/games_default.webm'"
-                        alt="about"
-                        width="70px" height="70px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing1" class="backing"></div>
-                    </div>
-                    </a>    
-
-                    <a href="pages\art.html">
-                    <div id="tv5" class="tv">
-                        <video
-                        src="video/art_default.webm"
-                        onmouseover="this.src='video/art_hover.mp4'"
-                        onmouseleave="this.src='video/art_default.webm'"
-                        alt="about"
-                        width="70px" height="70px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing1" class="backing"></div>
-                    </div>
-                    </a>
-
-                    <a href="pages\crazytown.html">
-                    <div id="tv6" class="tv">
-                        <video
-                        src="video/crazy_default.webm"
-                        onmouseover="this.src='video/crazy_hover.mp4'"
-                        onmouseleave="this.src='video/crazy_default.webm'"
-                        alt="about"
-                        width="50px" height="50px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing1" class="backing"></div>
-                    </div>
-                    </a>
-
-                    <a href="pages\gif_collection.html">
-                    <div id="tv7" class="tv">
-                        <video
-                        src="video/gif_default.webm"
-                        onmouseover="this.src='video/gif_hover.mp4'"
-                        onmouseleave="this.src='video/gif_default.webm'"
-                        alt="about"
-                        width="55px" height="55px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing1" class="backing"></div>
-                    </div>
-                    </a>
-
-                    <a href="pages\guestbook.html">
-                    <div id="tv8" class="tv">
-                        <video
-                        src="video/guestbook_default.webm"
-                        onmouseover="this.src='video/guestbook_hover.mp4'"
-                        onmouseleave="this.src='video/guestbook_default.webm'"
-                        alt="about"
-                        width="60px" height="60px"
-                        autoplay loop>
-                        </video>
-                        <div id="backing1" class="backing"></div>
-                    </div>
-                    </a>
-
+                <div id="dummy"></div>
             </div>
         
 
+            
+   
 
         <script src="js\app.js"></script>
     </body>

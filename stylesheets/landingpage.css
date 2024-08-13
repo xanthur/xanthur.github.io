@@ -1,0 +1,124 @@
+
+
+body{
+   background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif);
+}
+
+#welcome1{
+    color: wheat;
+    border-color: wheat;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    text-align: center;
+    border: 5px ridge;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 1;
+    border-radius: 5px;
+}
+#welcome1:hover{
+    color: gold;
+    border-color: gold;
+}
+
+#wrapper{
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#earth{
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: -2;
+}
+
+#satellite{
+    position: relative;
+    right: 13%;
+    width: 300px;
+    height: 300px;
+
+      
+}
+
+
+#display{
+    color: white;
+    position: relative;
+    top: -472px;
+    left: 100px;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#display:hover {
+
+    background: 
+        repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/2500px 2500px,
+        repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 60% 60%/2500px 2500px;
+    background-blend-mode: difference;
+    animation: b .2s infinite alternate;
+
+    color: black;
+}
+
+
+
+@keyframes b{
+    100% {background-position: 50% 0, 60% 50%}
+  }
+
+
+#enter_text{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-left: 19px;
+    padding-top: 54px;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+a:visited { 
+    text-decoration: none; 
+  } 
+a:hover { 
+    text-decoration: none; 
+  } 
+a:active { 
+    text-decoration: none; 
+  }
+
+#tv{
+    position:relative;
+    top: -112px;
+    left: -96px;
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 2;
+}
+
+#dummy{
+    
+    width: 300px;
+    height: 300px;
+    
+}
+
