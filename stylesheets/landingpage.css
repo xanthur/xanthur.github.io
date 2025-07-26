@@ -34,12 +34,17 @@ body{
     border-color: gold;
 }
 
-#wrapper{
-    margin-top: 8%;
-    display: flex;
+#world{
+    margin-top: 0%;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-}
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} 
+
 
 
 #earth{
@@ -47,7 +52,7 @@ body{
     -webkit-user-select: none;
     user-select: none;
     z-index: -2;
-    padding-right: 300px;
+    padding-right: 0px;
 }
 
 #satellite{
