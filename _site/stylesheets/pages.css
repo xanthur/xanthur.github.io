@@ -1,0 +1,112 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* html, body {
+    overflow: auto;
+} */
+
+
+body{
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+
+  background-image: url(https://i.pinimg.com/originals/c2/1d/b5/c21db5db2a609403d20ea8124a57bb9b.gif);
+  color: white;
+  margin-top: 0;
+  padding-top: 0;
+  margin: 0%;
+  padding-bottom: 0;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: monospace
+  
+  
+}
+
+
+#header{
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+#box{
+
+    flex: 1;
+
+
+
+
+    background-color: black;
+    border: 2px solid white;
+    outline: 2px solid silver;
+    padding: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    padding: 15px;
+    height: 100%;
+    border-bottom: 0px;
+
+
+
+}
+
+#content{
+    overflow-x: hidden;
+    margin: 10px;
+    color: white;
+    font-size: large;
+}
+
+table, th, td {
+border: 4px solid;
+  border-collapse: collapse;
+  padding: 10px;
+  border-color:blueviolet;
+}
+
+
+#nav_links{
+    display: flex;
+    margin: 25px;
+    
+    text-align: center;
+    font-size: 32px;
+    
+    
+}
+
+#earth{
+  float: right;
+}
+
+#earth_small{
+  margin-left: auto;
+}
+
+a:link {
+  color: hotpink;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: hotpink;
+} 
