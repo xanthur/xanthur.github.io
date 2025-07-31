@@ -19,13 +19,13 @@ body{
   min-height: 100vh;
 
 
-  background-image: url(https://i.pinimg.com/originals/c2/1d/b5/c21db5db2a609403d20ea8124a57bb9b.gif);
+  background-image: url(../images/checker_dark.gif);
   color: white;
   margin-top: 0;
   padding-top: 0;
   margin: 0%;
   padding-bottom: 0;
-  background-size: cover;
+  background-size: repeat;
   overflow-x: hidden;
   font-family: monospace
   
