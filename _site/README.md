@@ -1,3 +1,0 @@
-# xanthur.com
-
-*get real* 
