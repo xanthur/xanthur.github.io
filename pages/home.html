@@ -15,7 +15,6 @@ permalink: /home/
     <link rel="stylesheet" href="/stylesheets/pages.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 
@@ -47,11 +46,13 @@ permalink: /home/
         </div>
 
 
+        <script src="//code.jquery.com/jquery.min.js"></script>
         <script>
-        $(function(){
-        $("#nav_bar").load("nav.html");
+        $.get("nav.html", function(data){
+        $("#nav_bar").replaceWith(data);
         });
         </script>
+
        
         <hr>
 
