@@ -15,6 +15,8 @@ permalink: /home/
     <link rel="stylesheet" href="/stylesheets/pages.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 </head>
 
 
@@ -37,38 +39,19 @@ permalink: /home/
     <div id="box">
         
        
-        <div id="nav_links">
 
 
-            
-            <table>
-            <tr>
-                
-                <td>
-                    <a href="/home/">home</a>
-                </td>
 
-                <td>
-                    <a href="/video/">video</a>
-                </td>
-                
-                <td>
-                    <a href="/videogame/">video games</a>
-                </td>
+        <div id="nav_bar">
 
-                <td>
-                    <a href="/3D/">3D</a>
-                </td>
-
-            </tr>
-            </table>
-            
-           
-            <video playsinline autoplay muted loop id="earth_small" src="/video\xanthur-dot-com-60fps-rgba.webm" alt="fatballs.world" height="120px" width="120px" fetchpriority="high"></video>
-        
-
-        
         </div>
+
+
+        <script>
+        $(function(){
+        $("#nav_bar").load("nav.html");
+        });
+        </script>
        
         <hr>
 
